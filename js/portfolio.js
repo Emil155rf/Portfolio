@@ -4,13 +4,17 @@ const showBtn_2 = document.querySelector('.project-2')
 const block_2 = document.querySelector('.link-block-2')
 const showBtn_3 = document.querySelector('.project-3')
 const block_3 = document.querySelector('.link-block-3')
+const showBtn_4 = document.querySelector('.project-4')
+const block_4 = document.querySelector('.link-block-4')
 const img = document.querySelector('.link-img-1')
 const scrollToTop = document.querySelector('.back-to-top')
 const scrollToContacts = document.querySelector('.header-nav-btn')
 
+
 const link1 = document.querySelector('.link-1')
 const link2 = document.querySelector('.link-2')
 const link3 = document.querySelector('.link-3')
+const link4 = document.querySelector('.link-4')
 
 
 
@@ -18,22 +22,25 @@ const link3 = document.querySelector('.link-3')
 
 
 
-
-function show(val1, val2, val3, val4) {
+function show(val1, val2, val3, val4, val5) {
     val1.addEventListener('mouseover', function () {
         val2.style.visibility = 'visible'
         val3.style.transition = '.4s'
         val4.style.transition = '.4s'
+        val5.style.transition = '.4s'
         val3.style.color = '#525151'
         val4.style.color = '#525151'
+        val5.style.color = '#525151'
 
     })
     val1.addEventListener('mouseout', function () {
         val2.style.visibility = 'hidden'
         val3.style.transition = '.4s'
         val4.style.transition = '.4s'
+        val5.style.transition = '.4s'
         val3.style.color = 'rgb(190 190 190)'
         val4.style.color = 'rgb(190 190 190)'
+        val5.style.color = 'rgb(190 190 190)'
 
 
     })
@@ -47,9 +54,14 @@ function show(val1, val2, val3, val4) {
 
 
 
-show(showBtn, block, link2, link3)
-show(showBtn_2, block_2, link1, link3)
-show(showBtn_3, block_3, link1, link2)
+show(showBtn, block, link2, link3, link4)
+show(showBtn_2, block_2, link1, link3, link4)
+show(showBtn_3, block_3, link1, link2, link4)
+show(showBtn_4, block_4, link1, link2, link3)
+
+
+
+
 
 
 
