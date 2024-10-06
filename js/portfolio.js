@@ -27,7 +27,7 @@ function show(val1, val2, val3, val4) {
         val3.style.color = '#525151'
         val4.style.color = '#525151'
 
-    });
+    })
     val1.addEventListener('mouseout', function () {
         val2.style.visibility = 'hidden'
         val3.style.transition = '.4s'
@@ -36,7 +36,7 @@ function show(val1, val2, val3, val4) {
         val4.style.color = 'rgb(190 190 190)'
 
 
-    });
+    })
 
 
 }
@@ -79,29 +79,29 @@ SmoothScroll({
 
 
 window.addEventListener('load', function () {
-    document.body.classList.add('loaded');
-});
+    document.body.classList.add('loaded')
+})
 
 
 
 
 function updateTime() {
-    const now = new Date();
+    const now = new Date()
     const hours = now.getHours().toString().padStart(2, '0')
     const minutes = now.getMinutes().toString().padStart(2, '0')
     const seconds = now.getSeconds().toString().padStart(2, '0')
-    const date = now.toDateString();
-    const timeString = `${hours}:${minutes}:${seconds} ${date}`;
-    document.getElementById('clock').innerText = timeString;
+    const date = now.toDateString()
+    const timeString = `${hours}:${minutes}:${seconds} ${date}`
+    document.getElementById('clock').innerText = timeString
 }
 
-updateTime();
-setInterval(updateTime, 1000);
+updateTime()
+setInterval(updateTime, 1000)
 
 
 scrollToTop.addEventListener('click', () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
 
 })
 
@@ -109,7 +109,7 @@ scrollToTop.addEventListener('click', () => {
 scrollToContacts.addEventListener('click', () => {
     window.scrollTo({
         top: document.body.scrollHeight,
-    });
+    })
 })
 
 
