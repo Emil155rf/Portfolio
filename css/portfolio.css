@@ -874,12 +874,15 @@ h6 {
     .me-1 {
         position: relative;
         bottom: 0;
-        padding-bottom: 5em;
+        padding-bottom: 3em;
     }
 
     .info-text {
         width: 100%;
         padding: 0;
+    }
+    .projects-title {
+        padding-bottom: 1em;
     }
 
     .front-inner {
@@ -894,7 +897,7 @@ h6 {
     }
 
     .title-front {
-        padding-bottom: 5em;
+        padding-bottom: 3em;
     }
 
     .subtitle-front {
@@ -981,6 +984,9 @@ h6 {
     }
 
     .link-2 {
+        padding-bottom: 3em;
+    }
+    .link-3 {
         padding-bottom: 3em;
     }
 
