@@ -6,7 +6,6 @@ const showBtn_3 = document.querySelector('.project-3')
 const block_3 = document.querySelector('.link-block-3')
 const showBtn_4 = document.querySelector('.project-4')
 const block_4 = document.querySelector('.link-block-4')
-const img = document.querySelector('.link-img-1')
 const scrollToTop = document.querySelector('.back-to-top')
 const scrollToContacts = document.querySelector('.header-nav-btn')
 
