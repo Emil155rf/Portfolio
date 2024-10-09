@@ -17,7 +17,8 @@ const link4 = document.querySelector('.link-4')
 
 
 
-
+let copy = document.querySelector(".logos-slide").cloneNode(true)
+document.querySelector(".logos").appendChild(copy)
 
 
 
@@ -46,11 +47,6 @@ function show(val1, val2, val3, val4, val5) {
 
 
 }
-
-
-
-
-
 
 
 show(showBtn, block, link2, link3, link4)

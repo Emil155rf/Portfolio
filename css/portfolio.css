@@ -209,7 +209,7 @@ h6 {
 
 .logos-slide {
     display: inline-block;
-    animation: 8s slide infinite linear;
+    animation: 15s slide infinite linear;
 }
 
 .logos-slide img {
