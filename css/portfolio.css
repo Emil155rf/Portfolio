@@ -657,7 +657,6 @@ h6 {
 /* ========================= */
 
 .collab {
-    /* padding: 3em 0; */
     padding-top: 7em;
     padding-bottom: 3em;
 }
@@ -685,9 +684,11 @@ h6 {
     font-family: 'Swiss';
     text-transform: uppercase;
     letter-spacing: .5px;
+
 }
 
 .collab-subtitle {
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -700,6 +701,7 @@ h6 {
     font-size: 2rem;
     text-transform: uppercase;
     text-align: left;
+    padding-left: 0.5em;
 
 }
 
@@ -865,6 +867,97 @@ h6 {
 
 /* media  */
 /* ====================== */
+
+
+@media screen and (min-width: 1700px) {
+    .me-1 {
+        position: relative;
+        bottom: 5em;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 1600px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        flex-direction: column;
+    }
+
+    .aboutMe {
+        max-width: 1600px;
+    }
+
+    .img_1 {
+        width: 500px;
+        height: 600px;
+        position: relative;
+        left: 70%;
+    }
+
+    .aboutMe-title {
+        width: 100%;
+        padding: 10px 0;
+        font-size: clamp(30px, .92rem + 4.9vw, 90px);
+    }
+    .header-inner {
+        font-size: 1.2em;
+    }
+    .footer-inner {
+        font-size: 2em;
+    }
+    .back-to-top {
+        font-size: 1em;
+    }
+    .link-block {
+        width: 30vw;
+    }
+    .link-block-2 {
+        width: 30vw;
+    }
+    .link-block-3 {
+        width: 30vw;
+    }
+    .link-block-4 {
+        width: 30vw;
+    }
+    .link-img-1 {
+        height: 250px;
+        width: 20vw;
+        padding-bottom: 1em;
+    }
+    .link-img-2 {
+        height: 250px;
+        width: 20vw;
+        padding-bottom: 1em;
+    }
+    .link-img-3 {
+        height: 250px;
+        width: 20vw;
+        padding-bottom: 1em;
+    }
+    .link-img-4 {
+        height: 250px;
+        width: 20vw;
+        padding-bottom: 1em;
+    }
+
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1000px) {
     .info-inner {
         display: flex;
@@ -881,6 +974,7 @@ h6 {
         width: 100%;
         padding: 0;
     }
+
     .projects-title {
         padding-bottom: 1em;
     }
@@ -986,6 +1080,7 @@ h6 {
     .link-2 {
         padding-bottom: 3em;
     }
+
     .link-3 {
         padding-bottom: 3em;
     }
