@@ -6,6 +6,8 @@ const showBtn_3 = document.querySelector('.project-3')
 const block_3 = document.querySelector('.link-block-3')
 const showBtn_4 = document.querySelector('.project-4')
 const block_4 = document.querySelector('.link-block-4')
+const showBtn_5 = document.querySelector('.project-5')
+const block_5 = document.querySelector('.link-block-5')
 const scrollToTop = document.querySelector('.back-to-top')
 const scrollToContacts = document.querySelector('.header-nav-btn')
 
@@ -14,6 +16,7 @@ const link1 = document.querySelector('.link-1')
 const link2 = document.querySelector('.link-2')
 const link3 = document.querySelector('.link-3')
 const link4 = document.querySelector('.link-4')
+const link5 = document.querySelector('.link-5')
 
 
 
@@ -22,15 +25,17 @@ document.querySelector(".logos").appendChild(copy)
 
 
 
-function show(val1, val2, val3, val4, val5) {
+function show(val1, val2, val3, val4, val5, val6) {
     val1.addEventListener('mouseover', function () {
         val2.style.visibility = 'visible'
         val3.style.transition = '.4s'
         val4.style.transition = '.4s'
         val5.style.transition = '.4s'
+        val6.style.transition = '.4s'
         val3.style.color = '#525151'
         val4.style.color = '#525151'
         val5.style.color = '#525151'
+        val6.style.color = '#525151'
 
     })
     val1.addEventListener('mouseout', function () {
@@ -38,9 +43,11 @@ function show(val1, val2, val3, val4, val5) {
         val3.style.transition = '.4s'
         val4.style.transition = '.4s'
         val5.style.transition = '.4s'
+        val6.style.transition = '.4s'
         val3.style.color = 'rgb(190 190 190)'
         val4.style.color = 'rgb(190 190 190)'
         val5.style.color = 'rgb(190 190 190)'
+        val6.style.color = 'rgb(190 190 190)'
 
 
     })
@@ -49,10 +56,11 @@ function show(val1, val2, val3, val4, val5) {
 }
 
 
-show(showBtn, block, link2, link3, link4)
-show(showBtn_2, block_2, link1, link3, link4)
-show(showBtn_3, block_3, link1, link2, link4)
-show(showBtn_4, block_4, link1, link2, link3)
+show(showBtn, block, link2, link3, link4, link5)
+show(showBtn_2, block_2, link1, link3, link4, link5)
+show(showBtn_3, block_3, link1, link2, link4, link5)
+show(showBtn_4, block_4, link1, link2, link3, link5)
+show(showBtn_5, block_5, link1, link2, link3, link4)
 
 
 
