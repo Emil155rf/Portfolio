@@ -30,9 +30,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    margin-left: auto;
     font-family: 'Editorial';
-    margin-right: auto;
     box-sizing: border-box;
     background-color: rgb(25, 25, 25);
     opacity: 0;
